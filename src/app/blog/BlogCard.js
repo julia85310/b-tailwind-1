@@ -1,6 +1,6 @@
 
 export default function BlogCard({titulo, descripcion, img}){
-    return <div className="m-4 bg-teal-500 p-8 text-white rounded-xl w-80 h-fit">
+    return <div className="m-4 bg-teal-500 p-8 text-white rounded-xl w-2/3 h-fit">
         <img className="rounded-xl" src={img}></img>
         <h1 className="m-2 text-2xl font-bold">{titulo}</h1>
         <p className="break-words m-2">{descripcion}</p>
